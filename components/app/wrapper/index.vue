@@ -4,7 +4,7 @@
     @pending="console.log('wrapper suspense: pending')"
     @fallback="console.log('wrapper suspense: fallback')"
   >
-    <AppWrapperContentWorking />
+    <AppWrapperContent />
     <template #fallback>
       <div>Loading...</div>
     </template>
